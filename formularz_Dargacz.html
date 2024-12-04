@@ -6,15 +6,11 @@
          <title>Formularz_Dargacz</title>
          </head>
 	<body>
-<A><img src="zdjęcia z index/Formularz.jfif" border=0 width=70 height=50>Tutaj będzie formularz</A>	
+<A><img src="zdjęcia z index/Formularz.jfif" border=0 width=70 height=50></A>	
 <br>
 <A HREF="index.html"> Wróć </A> 
 <br>
-		<!DOCTYPE html>
- <html lang="pl-PL">
-<html>
- <head>
- <meta charset="utf-8">
+
  <title> ZADANIE FORMULARZ </title>
  </head>
 <body bgcolor="#87CEFA">
@@ -36,6 +32,7 @@
  <b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> 
 <br> 
  </TD> 
+
  <TD width="300" > 
 <center><font size="5" color="red"><b>Podaj środek lokomacji dojazdu do 
 pracy</b></font></center><br>
@@ -62,6 +59,31 @@ pracy</b></font></center><br>
 <input name="inna" size="25" maxlength="100">
  </TD>
  </TR>
-<TR height="200"
+<TR height="200">
+ <TD><nobr>Czy umiesz programować?</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Tak
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie 
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Nie wiem <br> <br> <b> W polu poniżej <br>Wpisz 
+opinię na temat pogody</b> <textarea cols="50" rows="4"></textarea> </TD> 
+ <TD>podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br> 
+ podaj datę &nbsp &nbsp &nbsp&nbsp &nbsp<input type="date"> <br> 
+ wybierz kolor &nbsp &nbsp<input type="color"> <br> </TD> 
+ <TD> jaka jest wilgotność <input type="range"> <br>
+ Proszę czekać...&nbsp &nbsp &nbsp &nbsp <progress>Proszę 
+czekać...</progress> </TD>
+ </TR>
+<TR height="100">
+ <TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk 
+niespodzianka</button></TD> 
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+</TD> 
+ <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+ </TR>
+ </TABLE>
+</form>
 </body>
 </html>
+
